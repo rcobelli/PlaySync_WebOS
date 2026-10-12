@@ -1,0 +1,36 @@
+<!--
+Copyright (c) 2024 LG Electronics Inc.
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>new app</title>
+	<script src="webOSTVjs-1.2.13/webOSTV.js" charset="utf-8"></script>
+	<script src="webOSTVjs-1.2.13/webOSTV-dev.js" charset="utf-8"></script>
+	<script src="xmltv.js" defer></script>
+	<script src="app.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+	<header>
+        <h1>Play Sync</h1>
+        <p id="status">Loading TV guide...</p>
+    </header>
+
+    <main>
+        <ul id="channels" aria-label="Currently airing programmes"></ul>
+    </main>
+
+	<footer>
+		<p id="selection-count">0 of 4 selected</p>
+		<button id="continue-button" disabled>Continue</button>
+	</footer>
+</body>
+
+</html>
